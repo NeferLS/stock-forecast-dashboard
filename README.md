@@ -1,4 +1,4 @@
-# Stock &amp; Crypto Forecasting Dashboard made with Python
+# Stock &amp; Crypto Forecasting Dashboard
 
 
 
