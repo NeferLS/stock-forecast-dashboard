@@ -12,4 +12,3 @@ This project aims to forecast stock/crypto price trends using CSV data, visualiz
 | Visualization     | plotly, matplotlib, seaborn    |
 | UI  | streamlit     |
 | Packaging  | requirements.txt     |
-
