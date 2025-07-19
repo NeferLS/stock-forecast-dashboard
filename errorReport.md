@@ -12,3 +12,13 @@ during this project and how it made me improve.
 properly.
 
 2. Everytime I'd fetch a .csv file I'd have to manually erase the second row of trash because if not, matplotlib would go crazy with the trends.
+
+3. When it came to training the model, I chose LSTM in order to create better
+quality predictions. I had to install `tensorflow` and I couldnt with my
+normal `venv`, so I created an enviroment using anaconda.
+
+4. Using recursive prediction accumulates mistakes over time. First model I
+trained looked good in the beginning... not so good in the end. I overtrained the model and future predictions were no good. 
+
+5. Switched to bidirectional LSTM to improve future predictions. I Have to add 
+more steps
