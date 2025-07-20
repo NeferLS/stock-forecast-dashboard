@@ -20,5 +20,6 @@ normal `venv`, so I created an enviroment using anaconda.
 4. Using recursive prediction accumulates mistakes over time. First model I
 trained looked good in the beginning... not so good in the end. I overtrained the model and future predictions were no good. 
 
-5. Switched to bidirectional LSTM to improve future predictions. I Have to add 
-more steps
+5. Normal LSTM didnt give very good predictions. Switched to bidirectional LSTM.
+
+6. Using only the Close colum to predict future values was not that good when it came to predictions. Using more columns now
